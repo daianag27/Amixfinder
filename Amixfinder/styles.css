@@ -75,23 +75,19 @@ a {
 }
 
 /* INTERESES */
-.intereses {
-    background: #ffeef0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-        
+
 .speech-bubble {
     background-color: #e74c3c;
     color: white;
-    padding: 20px;
+    padding: 20px 30px;
     border-radius: 20px;
     margin: 10px;
     font-size: 1.2em;
+    text-align: center;
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .speech-bubble::after {
