@@ -17,29 +17,31 @@ body {
     text-align: center;
 }
 
+/* H3 GENERAL */
+h3 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* A GENERAL */
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
 .speech-bubble {
     background-color: #e74c3c;
     color: white;
-    padding: 20px 30px;
+    padding: 20px ;
     border-radius: 20px;
     margin: 10px;
-    font-size: 1.2em;
+    font-size: 1 rem;
     text-align: center;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.speech-bubble::after {
-    content: '';
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 10px;
-    border-style: solid;
-    border-color: #e74c3c transparent transparent transparent;
 }
 
 .header {
@@ -54,29 +56,20 @@ body {
     color: #e74c3c;
 }
 
-/* H3 GENERAL */
-h3 {
-    font-size: 15px;
-    margin-top: 10px;
+.speech-bubble.selected {
+    background-color: #f78fb3; 
 }
 
-/* A GENERAL */
-a {
-    text-decoration: none;
-    display: inline-block;
-}
-
-/* BOTONES GENERALES */
+/* BOTON */
 .btn {
     padding: 10px 20px;
-    background-color: #fff;
-    color: rgb(227, 105, 231);
+    background-color: #f78fb3;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
 }
-
 
 .btn:hover {
     background-color: #eca6e7;

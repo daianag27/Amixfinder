@@ -29,11 +29,11 @@ a {
     display: inline-block;
 }
 
-/* BOTONES GENERALES */
+/* BOTON */
 .btn {
     padding: 10px 20px;
-    background-color: #fff;
-    color: rgb(227, 105, 231);
+    background-color: #f78fb3;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
