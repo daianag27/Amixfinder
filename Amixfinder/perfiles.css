@@ -17,6 +17,21 @@ body {
     text-align: center;
 }
 
+/* IMAGENES */
+.d-block.w-100 {
+    height: 450px;
+    border-radius: 10px
+    
+}
+
+/* TEXTO IMG */
+.carousel-caption{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    padding-bottom: 0%;
+}
+
 /* BOTON */
 .btn {
     padding: 10px 20px;
@@ -34,4 +49,13 @@ body {
 
 .input-group-text {
     color: #eca6e7;
+}
+
+/* TITULO */
+.heading_editar {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 119, 255);
+    margin: 10px;
+    margin-bottom: 20px
 }
