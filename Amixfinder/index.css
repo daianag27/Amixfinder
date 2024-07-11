@@ -30,7 +30,7 @@ body {
 .heading_inicio {
     text-align: center;
     font-size: 40px;
-    color: rgb(0, 119, 255);
+    color: #d906dc;
     margin: 10px;
     margin-bottom: 20px
 }
@@ -66,3 +66,11 @@ a {
     color: #eca6e7;
 }
 
+
+h1 {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    color: #d906dc;
+  }
