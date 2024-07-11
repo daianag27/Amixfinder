@@ -26,6 +26,7 @@ body {
 
 /* TEXTO IMG */
 .carousel-caption{
+    backdrop-filter: blur(10px);
     position: absolute;
     right: 0%;
     left: 0%;
