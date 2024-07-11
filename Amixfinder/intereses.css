@@ -46,7 +46,7 @@ a {
 
 .header {
     background-color: #f78fb3;
-    color: #333;
+    color:#d906dc;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -76,5 +76,11 @@ a {
 }
 
 .input-group-text {
-    color: #eca6e7;
+    color:#d906dc;
 }
+
+h1 {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }

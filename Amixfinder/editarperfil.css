@@ -29,9 +29,17 @@ body {
 }
 
 .btn:hover {
-    background-color: #eca6e7;
+    background-color: #d906dc;
 }
 
 .input-group-text {
-    color: #eca6e7;
+    color: #d906dc;
 }
+
+h1 {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    color: #d906dc;
+  }
