@@ -35,13 +35,11 @@ body {
     margin-bottom: 20px
 }
 
-/* H3 GENERAL */
 h3 {
     font-size: 15px;
     margin-top: 10px;
 }
 
-/* A GENERAL */
 a {
     text-decoration: none;
     display: inline-block;
