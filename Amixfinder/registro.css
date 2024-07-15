@@ -3,71 +3,31 @@ body {
     display: flex;
     justify-content: center;
     background-color: white;
-}
-
+ }
+    
 .container {
     position: relative;
     width: 100%;
     max-width: 400px;
-    background-image: url(amixfinderfondo2\ \(3\).png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url(https://th.bing.com/th/id/R.0cec901271acc494eb81cde2350b0a19?rik=t45dk3BGIVPIeQ&pid=ImgRaw&r=0);
     padding: 30px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 10px;
     text-align: center;
-} 
-
-.container input {
-    width: 50%;
-    height: 50%;
-    background-color: #E58CB8;
-    border: 2px solid #E58CB8;
-    border-radius: 30px;
-    font-size: 17px;
-    color: #ffff;
-    padding: 10px 20px 10px 10px;
 }
-
-/* INICIO */
-.fondo {
-    width: 430px 380px ;
-    background-color: rgb(255, 255, 255);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 30px 40px;
-}
-
-.logo {
-    display: block;
-    padding: 10px 10px 10px;
-    margin: 0 auto;
-    height: 200px;
-}
-
-
-.heading_inicio {
-    text-align: center;
-    font-size: 40px;
-    color: #d14a8b;
-    margin: 10px;
-    margin-bottom: 20px
-}
-
-/* H3 GENERAL */
-h3 {
+    
+    h3 {
     font-size: 15px;
     margin-top: 10px;
-}
-
-/* A GENERAL */
-a {
+    }
+    
+ a {
     text-decoration: none;
     display: inline-block;
-}
-
-/* BOTON */
+ }
+    
+    /* BOTON */
 .btn {
     padding: 10px 20px;
     background-color: #f78fb3;
@@ -77,23 +37,27 @@ a {
     cursor: pointer;
     margin-top: 20px;
 }
-
+    
 .btn:hover {
     background-color: #eca6e7;
 }
-
+    
 .input-group-text {
     color: #eca6e7;
 }
-
-
-h1 {
-    font-family: "Pacifico", cursive;
+    
+    /* REGISTRO */
+ .heading_registro {
+    font-size: 40px;
+    color: #d906dc;
+    margin: 40px;
+}
+    
+    
+    
+    
+ h1 {
+    font-family: "Anton SC", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #d14a8b;
-}
-
-h3{
-    color: #C21A42;
-}
+    }
