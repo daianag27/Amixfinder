@@ -9,7 +9,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 400px;
-    background-image: url(https://th.bing.com/th/id/R.0cec901271acc494eb81cde2350b0a19?rik=t45dk3BGIVPIeQ&pid=ImgRaw&r=0);
+    background-color: rgb(255, 250, 253);
     padding: 30px;
     overflow: hidden;
     border-radius: 10px;
@@ -20,7 +20,8 @@ body {
 /* IMAGENES */
 .d-block.w-100 {
     height: 450px;
-    border-radius: 10px
+    padding: 5px;
+    border-radius: 15px
     
 }
 
@@ -34,13 +35,15 @@ body {
 
 /* BOTON */
 .btn {
-    padding: 10px 20px;
+    padding: 15px 20px;
+    width: 90px;
+    height: 80px ;
     background-color: #f78fb3;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 29px ;
 }
 
 .btn:hover {
@@ -48,22 +51,29 @@ body {
 }
 
 .fa-solid {
-    font-size: 20px;
-    color: red;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.fa-solid:active {
+    color: solid #d14a8b;
+    transition-duration: 0.2s;
+
 }
 
 /* TITULO */
 .heading_editar {
     text-align: center;
     font-size: 30px;
-    color: #d906dc;
+    color: #d14a8b;
     margin: 10px;
     margin-bottom: 20px
 }
 
 
 h1 {
-    font-family: "Anton SC", sans-serif;
+    font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
 }
@@ -74,7 +84,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #f1cce8;
+    background-color: #ffffff;
     border: 2px solid #ff67eb;
     border-radius: 5px;
     padding: 20px;
