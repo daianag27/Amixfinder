@@ -30,7 +30,7 @@ body {
 }
 
 .fondo {
-    background-color: rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
     padding: 30px 25px;
     border-radius: 15px;
 }
@@ -38,7 +38,7 @@ body {
 /* BOTON */
 .btn {
     padding: 10px 20px;
-    background-color: #f78fb3;
+    background-color: #e46592;
     color: white;
     border: none;
     border-radius: 5px;
@@ -67,4 +67,5 @@ h1 {
     font-style: none;
     color: #b32458;
 }
+
 
