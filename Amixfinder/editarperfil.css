@@ -9,12 +9,30 @@ body {
     position: relative;
     width: 100%;
     max-width: 400px;
-    background-image: url(https://th.bing.com/th/id/R.0cec901271acc494eb81cde2350b0a19?rik=t45dk3BGIVPIeQ&pid=ImgRaw&r=0);
-    padding: 30px;
+    background-image: url(amixfinderfondo2\ \(3\).png);
+    background-repeat: no-repeat;
+    padding: 30px ; 
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 10px;
     text-align: center;
+}
+
+.container input {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 2.3px solid #e892bd;
+    border-radius: 30px;
+    font-size: 17px;
+    color: #ffff;
+    padding: 10px 20px 10px 10px;
+}
+
+.fondo {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 25px;
+    border-radius: 15px;
 }
 
 /* BOTON */
@@ -33,13 +51,20 @@ body {
 }
 
 .input-group-text {
-    color: #d906dc;
+    color: #e47db9;
 }
 
 h1 {
-    font-family: "Anton SC", sans-serif;
-    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 35px;
     font-style: normal;
-    
-    color: #d906dc;
-  }
+    color: #e0377d;
+    padding: 3px;
+}
+
+.container ::placeholder {
+    font-style: none;
+    color: #b32458;
+}
+
