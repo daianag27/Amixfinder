@@ -9,7 +9,9 @@ body {
     position: relative;
     width: 100%;
     max-width: 400px;
-    background-image: url(https://th.bing.com/th/id/R.0cec901271acc494eb81cde2350b0a19?rik=t45dk3BGIVPIeQ&pid=ImgRaw&r=0);
+    background-image: url(amixfinderfondo2\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding: 30px;
     overflow: hidden;
     border-radius: 10px;
@@ -28,52 +30,34 @@ a {
 
 
 .speech-bubble {
-    background-color: #e74c3c;
-    color: white;
-    padding: 20px ;
-    border-radius: 20px;
-    margin: 10px;
-    font-size: 1 rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(90, 14, 14);
+    padding: 10px 70px 10px 70px;
+    border-radius: 18px;
+    margin: 10px 20px;
+    font-size: 2.2ch;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: #db709c 0 03px;
 }
 
 .header {
-    background-color: #f78fb3;
-    color:#d906dc;
+    background-color: #ffffff;
+    color: hsl(331, 59%, 55%);
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .heart {
-    color: #e74c3c;
+    color: #e20c90;
 }
 
 .speech-bubble.selected {
-    background-color: #f78fb3; 
+    background-color: #ffffff; 
 }
 
-/* BOTON */
-.btn {
-    padding: 10px 20px;
-    background-color: #f78fb3;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.btn:hover {
-    background-color: #eca6e7;
-}
-
-h1 {
-    font-family: "Anton SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
