@@ -9,23 +9,13 @@ body {
     position: relative;
     width: 100%;
     max-width: 400px;
-    background-image: url(https://th.bing.com/th/id/R.0cec901271acc494eb81cde2350b0a19?rik=t45dk3BGIVPIeQ&pid=ImgRaw&r=0);
+    background-image: url(img/Amixfinder\ fondo2.jpg);
     padding: 30px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 10px;
     text-align: center;
 }
-    
-    h3 {
-    font-size: 15px;
-    margin-top: 10px;
-    }
-    
- a {
-    text-decoration: none;
-    display: inline-block;
- }
     
     /* BOTON */
 .btn {
@@ -45,19 +35,67 @@ body {
 .input-group-text {
     color: #eca6e7;
 }
-    
-    /* REGISTRO */
- .heading_registro {
-    font-size: 40px;
-    color: #d906dc;
-    margin: 40px;
+
+a {
+    text-decoration: none;
+    display: inline-block;
 }
-    
-    
-    
-    
- h1 {
-    font-family: "Anton SC", sans-serif;
+
+/* TITULO */
+.heading_registro {
+    text-align: center;
+    font-size: 30px;
+    color: #d14a8b;
+    margin: 10px;
+    margin-bottom: 20px
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    }
+}
+
+/* IMG DE PERFIL */
+#desktopContainer {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-color: rgb(243, 178, 240);
+    background-position: center;
+    border: 2px solid #333;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+
+#desktopImage {
+    max-width: 100%;
+    height: auto;
+    object-fit:contain;
+}
+
+.custom-input {
+    border: 2px solid #c752bd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #797575;
+    font-size: 16px;
+}
+
+.custom-button {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #d871d3;
+    font-weight: bold;
+}
+
+.custom-button:hover {
+    background-color: #e782ce;
+}

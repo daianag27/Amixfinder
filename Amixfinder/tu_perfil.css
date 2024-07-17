@@ -10,15 +10,16 @@ body {
     width: 100%;
     max-width: 400px;
     background-image: url(img/Amixfinder\ fondo2.jpg);
-    background-repeat: repeat;
-    padding: 30px ; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 10px;
     text-align: center;
-}
+} 
 
-#imageInput {
+.container input {
     width: 50%;
     height: 50%;
     background-color: rgb(255, 255, 255);
@@ -53,9 +54,9 @@ body {
 .input-group-text {
     color: #e47db9;
 }
-/* TITULO */
 
-.heading_editar {
+/* TITULO */
+.heading_perfil {
     text-align: center;
     font-size: 30px;
     color: #d14a8b;
@@ -72,48 +73,4 @@ h1 {
 .container ::placeholder {
     font-style: none;
     color: #b32458;
-}
-
-/* IMG DE PERFIL */
-#desktopContainer {
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-color: rgb(243, 178, 240);
-    background-position: center;
-    border: 2px solid #333;
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-flex;
-}
-
-
-#desktopImage {
-    max-width: 100%;
-    height: auto;
-    object-fit:contain;
-}
-
-.custom-input {
-    border: 2px solid #c752bd;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    color: #797575;
-    font-size: 16px;
-}
-
-.custom-button {
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin: 10px;
-    background-color: #d871d3;
-    font-weight: bold;
-}
-
-.custom-button:hover {
-    background-color: #e782ce;
 }
