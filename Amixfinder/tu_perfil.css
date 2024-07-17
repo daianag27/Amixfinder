@@ -39,7 +39,7 @@ body {
 /* BOTON */
 .btn {
     padding: 10px 20px;
-    background-color: #e46592;
+    background-color: #f78fb3;
     color: white;
     border: none;
     border-radius: 5px;
@@ -48,7 +48,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #d906dc;
+    background-color: #eca6e7;
 }
 
 .input-group-text {

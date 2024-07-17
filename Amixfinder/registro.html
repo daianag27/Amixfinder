@@ -26,7 +26,7 @@
             <input type="file" id="imageInput" class="custom-input">
             <button onclick="cargarImagen()" class="custom-button">Subir</button>
 
-            <form>
+            <form id="formularioRegistro" action="#" method="get"></form>
                 
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-at"></i></span>
@@ -49,17 +49,6 @@
                 </div>
 
                 <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-venus-mars"></i></span>
-                    <select id="genero" class="form-select" aria-label="Género">
-                        <option value="" disabled selected>Selecciona un género</option>
-                        <option value="femenino">Femenino</option>
-                        <option value="masculino">Masculino</option>
-                        <option value="nobinario">No Binario</option>
-                        <option value="otro">Prefiero no decirlo</option>
-                    </select>
-                </div>
-
-                <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-cake-candles"></i></span>
                     <input type="date" id="cumpleaños" class="form-control" placeholder="" aria-label="date" aria-describedby="basic-addon1">
                 </div>
@@ -72,10 +61,10 @@
                     <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                     <label class="form-check-label" for="validationFormCheck1">Acepto bases y condiciones</label>
                 </div>
+
+                <a href="intereses.html"><input class="btn btn-primary" type="submit" value="Registrarse" onclick="guardarDatos()"></a>
             
             </form>
-
-            <a href="intereses.html"><button class="btn btn-primary" type="submit">Registrar</button></a>
 
         </div>
 

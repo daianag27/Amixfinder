@@ -51,8 +51,8 @@ input[type="text"] {
     border-radius: 5px;
 }
 
-button {
-    background-color: #ff00ff;
+.boton {
+    background-color: #f78fb3;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -60,6 +60,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #da47df;
+.boton:hover {
+    background-color: #eca6e7;
 }
