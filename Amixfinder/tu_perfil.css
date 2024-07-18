@@ -70,6 +70,12 @@ h1 {
     font-style: normal;
 }
 
+p {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .container ::placeholder {
     font-style: none;
     color: #b32458;
